@@ -8,7 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
-/*  */
+/* removed unnecessary class for all header content*/
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -20,11 +20,11 @@ header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/* removed unnecessary class and changed selector to span*/
 span {
     color: #d9dcd6;
 }
-
+/* changed div to semantic Nav*/
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -50,7 +50,7 @@ a {
 p {
     font-size: 16px;
 }
-
+/* added semantic tags*/
 .hero {
     height: 800px;
     width: 100%;
@@ -70,12 +70,14 @@ p {
     margin-left: 25px;
 }
 
+/* removed div and class, replaced with semantic Main*/
 main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* removed div and class, replaced with Semantic main*/
 aside {
     margin-right: 20px;
     padding: 20px;
@@ -87,6 +89,7 @@ aside {
     background-color: #2589bd;
 }
 
+/* Consolidated redundant class tags into "benefit-group"*/
 .benefit-group {
     margin-bottom: 32px;
     color: #ffffff;
@@ -106,6 +109,7 @@ aside {
     max-width: 150px;
 }
 
+/* Consolidated redundant class tags into "main-content"*/
 .main-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -124,6 +128,7 @@ aside {
     font-size: 36px;
 }
 
+/* Changed div and footer class into Semantic tag of "Footer"*/
 footer {
     padding: 30px;
     clear: both;
