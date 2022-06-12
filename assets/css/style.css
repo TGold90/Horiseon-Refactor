@@ -16,14 +16,12 @@ header {
     color: #ffffff;
 }
 
+/* Reorder CSS flow to follow HTML Structure*/
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
-/* removed unnecessary class and changed selector to span*/
-span {
-    color: #d9dcd6;
-}
+
 /* changed div to semantic Nav*/
 header nav {
     padding-top: 15px;
@@ -32,6 +30,7 @@ header nav {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
+
 
 header nav ul {
     list-style-type: none;
@@ -47,9 +46,11 @@ a {
     text-decoration: none;
 }
 
-p {
-    font-size: 16px;
+/* removed unnecessary class and changed selector to span*/
+span {
+    color: #d9dcd6;
 }
+
 /* added semantic tags*/
 .hero {
     height: 800px;
@@ -58,6 +59,10 @@ p {
     background-image: url("../images/digital-marketing-meeting.jpg");
     background-size: cover;
     background-position: center;
+}
+
+p {
+    font-size: 16px;
 }
 
 .float-left {
@@ -75,6 +80,25 @@ main {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+}
+
+/* Consolidated redundant class tags into "main-content"*/
+.main-content {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.main-content img {
+    max-height: 200px;
+}
+
+.main-content h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 /* removed div and class, replaced with Semantic main*/
@@ -107,25 +131,6 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Consolidated redundant class tags into "main-content"*/
-.main-content {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.main-content img {
-    max-height: 200px;
-}
-
-.main-content h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
 }
 
 /* Changed div and footer class into Semantic tag of "Footer"*/
