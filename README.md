@@ -9,4 +9,4 @@ The purpose of this project is to clean up unnecessary code, fix broken links an
 
 ## Content
 
-! [alt text](assets/images/Screen Shot 2022-06-12.png)
+! [Screenshot](assets/images/screenshot2022-06-12.png)
