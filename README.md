@@ -9,4 +9,4 @@ The purpose of this project is to clean up unnecessary code, fix broken links an
 
 ## Content
 
-! [Screenshot](assets/images/screenshot2022-06-12.png)
+! [Screenshot](https://github.com/TGold90/Horiseon-Refactor/blob/main/assets/images/screenshot2022-06-12.png)
