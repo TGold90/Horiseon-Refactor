@@ -10,3 +10,5 @@ The purpose of this project is to clean up unnecessary code, fix broken links an
 ## Content
 
 ![Screenshot](https://github.com/TGold90/Horiseon-Refactor/blob/main/assets/images/screenshot2022-06-12.png)
+
+![screenshot2022-06-12](https://user-images.githubusercontent.com/104692375/173468458-f867ea7f-718d-4576-859d-d611ce4ef9b9.png)
