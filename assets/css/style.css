@@ -51,6 +51,42 @@ span {
     color: #d9dcd6;
 }
 
+p {
+    font-size: 16px;
+}
+
+/* removed div and class, replaced with semantic Main*/
+main {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* removed div and class, replaced with Semantic main*/
+aside {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Changed div and footer class into Semantic tag of "Footer"*/
+footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 {
+    font-size: 20px;
+}
+
+
 /* added semantic tags*/
 .hero {
     height: 800px;
@@ -61,10 +97,6 @@ span {
     background-position: center;
 }
 
-p {
-    font-size: 16px;
-}
-
 .float-left {
     float: left;
     margin-right: 25px;
@@ -73,13 +105,6 @@ p {
 .float-right {
     float: right;
     margin-left: 25px;
-}
-
-/* removed div and class, replaced with semantic Main*/
-main {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
 }
 
 /* Consolidated redundant class tags into "main-content"*/
@@ -101,18 +126,6 @@ main {
     font-size: 36px;
 }
 
-/* removed div and class, replaced with Semantic main*/
-aside {
-    margin-right: 20px;
-    padding: 20px;
-    clear: both;
-    float: right;
-    width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #2589bd;
-}
-
 /* Consolidated redundant class tags into "benefit-group"*/
 .benefit-group {
     margin-bottom: 32px;
@@ -131,16 +144,4 @@ aside {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
-
-/* Changed div and footer class into Semantic tag of "Footer"*/
-footer {
-    padding: 30px;
-    clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-align: center;
-}
-
-footer h2 {
-    font-size: 20px;
 }
